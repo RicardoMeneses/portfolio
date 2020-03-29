@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import linkedin from '../../assets/linkedin.svg'
 import github from '../../assets/github.svg'
 import './home.css'
 
-const Home = () => {
+const Home = ({setHome}) => {
+
+  useEffect(() => {
+    setHome(true)
+  }, [setHome])
+
   return (
     <div className="home__container">
       <div className="container-fluid h-100">
