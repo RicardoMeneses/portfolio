@@ -20,10 +20,10 @@ const Header = ({home}) => {
     <div className={`header__overlay ${open ? 'open' : ''}`}>
         <nav className="header__overlay-menu">
           <ul>
-            <li><Link to="/" onClick={() => setOpen(!open)}>Inicio</Link></li>
-            <li><Link to="/sobre-mi" onClick={() => setOpen(!open)}>Sobre Mí</Link></li>
-            <li><Link to="/curriculum" onClick={() => setOpen(!open)}>Curriculum</Link></li>
-            <li><Link to="/proyectos" onClick={() => setOpen(!open)}>Proyectos</Link></li>
+            <li><Link to="/portfolio" onClick={() => setOpen(!open)}>Inicio</Link></li>
+            <li><Link to="/portfolio/sobre-mi" onClick={() => setOpen(!open)}>Sobre Mí</Link></li>
+            <li><Link to="/portfolio/curriculum" onClick={() => setOpen(!open)}>Curriculum</Link></li>
+            <li><Link to="/portfolio/proyectos" onClick={() => setOpen(!open)}>Proyectos</Link></li>
           </ul>
         </nav>
       </div>

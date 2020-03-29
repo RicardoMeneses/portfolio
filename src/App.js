@@ -13,8 +13,8 @@ function App() {
       <div className="general__container">
         <Header home={home} />
         <Switch>
-          <Route exact path="/" render={() => (<Home setHome={setHome} />)} />
-          <Route exact path="/sobre-mi" render={() => (<About setHome={setHome} />)} />
+          <Route exact path="/portfolio" render={() => (<Home setHome={setHome} />)} />
+          <Route exact path="/portfolio/sobre-mi" render={() => (<About setHome={setHome} />)} />
         </Switch>
       </div>
     </Router>
