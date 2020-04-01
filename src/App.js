@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Header from './components/general/header/Header'
 import Home from './components/home/Home'
 import About from './components/sobre-mi/About'
+import Curriculum from './components/curriculum/Curriculum'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/portfolio" render={() => (<Home setHome={setHome} />)} />
           <Route exact path="/portfolio/sobre-mi" render={() => (<About setHome={setHome} />)} />
+          <Route exact path="/portfolio/curriculum" render={() => (<Curriculum setHome={setHome} />)} />
         </Switch>
       </div>
     </Router>

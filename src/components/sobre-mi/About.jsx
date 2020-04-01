@@ -44,7 +44,7 @@ const About = ({setHome}) => {
                   <div className="col-12 col-md-6 text-center text-md-left">
                     <h2>Sobre Mí</h2>
                     <p>
-                      Soy una hombre en busca de mejorar mis habilidades, 
+                      Soy un hombre en busca de mejorar mis habilidades, 
                       cuento con dos años de experiencia en desarrollo web
                       utilizando frameworks como Vue.js, Node.js, React.
                     </p>
